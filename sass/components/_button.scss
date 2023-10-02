@@ -33,7 +33,15 @@
     &::after {
       background-color: $color-white;
       }
+    }
 
+  &_green {
+    color: $color-white;
+    background-color: $color-primary;
+  
+      &::after {
+        background-color: $color-primary;
+        }
   }
 
 
