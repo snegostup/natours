@@ -3,9 +3,9 @@
   padding: 6rem;
   padding-left: 9rem;
   width: 75%;
-  background-color: $color-white;
+  background-color: rgba($color-white, .6);
   box-shadow: 0 3rem 6rem rgba($color-black, .1);
-  border-radius: 3px;
+  border-radius: $box-border-radius;
   font-size: $default-font-size;
   transform: skewX(-12deg);
 
